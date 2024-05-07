@@ -12,4 +12,3 @@ def removeElement(nums, val):
             j += 1
 
     return j
-    
