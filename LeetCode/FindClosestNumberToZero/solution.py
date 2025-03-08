@@ -9,8 +9,8 @@ def findClosestNumber(self, nums):
         if abs(num) < abs(current_lowest):
             current_lowest = num
 
-    if current_lowest < 0 and abs(num) in nums:
-        return abs(num)
+    if current_lowest < 0 and abs(current_lowest) in nums:
+        return abs(current_lowest)
     else:
         return current_lowest
 
